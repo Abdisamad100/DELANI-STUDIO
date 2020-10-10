@@ -33,3 +33,11 @@ h1{
     text-align:center; 
     font-size:25px;  
 }
+#portfolio{
+    align-items: center;
+    margin-top:20px;
+}
+.raw{
+    padding-top:20px;
+}
+}
