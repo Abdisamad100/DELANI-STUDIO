@@ -35,9 +35,19 @@ h1{
 }
 #portfolio{
     align-items: center;
-    margin-top:20px;
+    margin-top:50px;
 }
 .raw{
     padding-top:20px;
 }
+#contacts{
+    background-image:url("./images/c_image.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:300px;
+    margin-top:50px;
+}
+.form{
+    width:100%;
+    padding:20px;
 }
