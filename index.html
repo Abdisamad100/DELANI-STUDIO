@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md-3" id="work1">
                     <img src="images/portfolio/work1.jpg" width="100%">
-                    <p id="overlay1" class="text">Work1</p>
+                    <p id="overlay" class="text">Work1</p>
                 </div>
             </div>
             <div class="raw">
@@ -140,30 +140,31 @@
         </div>
         </div>
     </section>
-<section id="contacts">
-    <h1>Contacts</h1>
+<section id="form" class="container-fluid">
     <div class="container">
-        <div class="form-group">
-            <div class="row">
-                <div class="col-lg-6">
-                    <input type="text" class="form-control"  id="name" placeholder="Name"  autocorrect="off"  required>
-                </div>
-                <div class="col-lg-6">
-                    <input type="email"  class="form-control" id="mail" placeholder="Email"  autocorrect="off" required>
-                </div>
-                <div class="col-md-12">
-                    <input type="text" class="form-control" id="message" placeholder="Message" autocorrect="off" required >
-                </div><br>
+        <h1>CONTACT US</h1>
+    <form text-white id="formInput" action="" method="POST">
+    <form text-white id="formInput" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+            <input type="hidden" name="u" value="3050541c3a1dd5ab3af8f2869">
+            <input type="hidden" name="id" value="314822db98">
+        <div class="row">
+            <div class="col col-12 col-lg-6">
+                <input type="text" id="name" class="form-control" name="name" placeholder="Name...">
             </div>
+            <div class="col col-12 col-lg-6">
+                <input type="text" id="email" class="form-control" name="email" placeholder="Email..">
             </div>
-            <button class="btn btn-info" id="ma">Submit</button><br><br>
-            <div>
+            <div class="col col-12">
+                <textarea id="subject" id="comment" class="form-control" name="subject"
+                    placeholder="Your message here.." style="height:200px"></textarea>
             </div>
+            <input type="submit" value="Submit">
         </div>
+    </form>
     </div>
-
-
 </section>
+
+
 <footer>
     <div class="icons">
     <img src="images/social_icons/behance.png" >

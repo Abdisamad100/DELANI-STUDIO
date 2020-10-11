@@ -1,5 +1,5 @@
 $(".image").click(function(){
-  $(".hidden").toggle().slideUp(1000) .slideDown(1000);
+  $(".hidden").toggle().slideUp(1500) .slideDown(1500);
 });
 
 //overlay 4
@@ -62,10 +62,32 @@ $("#work4")
   //overlay1
   $("#work1")
   .mouseenter(function() {
-    $("#overlay1").show("slow");
+    $("#overlay").show("slow");
   })
   .mouseleave(function() {
-    $("#overlay1").hide("slow");
+    $("#overlay").hide("slow");
   });
 
 
+
+  //form validation
+  $("form#formInput").submit(function(event){
+    $("form#formInput").submit(function (event) {
+        let name = $("input#name").val();
+        let email = $("input#email").val();
+        let subject = $("textarea#subject").val();
+    
+        if ($("input#name").val() && $("input#email").val()){
+          alert (name + ", we have received your message. Thank you for reaching out to us.");
+        if ($("input#name").val() && $("input#email").val()) {
+            alert(name + ", we have received your message. Thank you for reaching out to us.");
+        }
+        else {
+          alert("Please enter your name and email!");
+            alert("Please enter your name and email!");
+        }
+    
+        event.preventDefault();
+      }
+    }) 
+  })
