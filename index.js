@@ -62,10 +62,10 @@ $("#work4")
   //overlay1
   $("#work1")
   .mouseenter(function() {
-    $("#overlay-1").show("slow");
+    $("#overlay1").show("slow");
   })
   .mouseleave(function() {
-    $("#overlay-1").hide("slow");
+    $("#overlay1").hide("slow");
   });
 
 
