@@ -83,3 +83,8 @@ button{
     font-size: 30px;
     padding-top: 30%;
 }
+#submit{
+    margin-top:50px;
+    text-align:center;
+    color:blue;
+}
