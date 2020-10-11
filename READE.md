@@ -1,15 +1,14 @@
-# ![my-Portfolio](images/abdi.JPG)
+# DELANI STUDIO
 <table>
 <tr>
 <td>
-  This is basically a portfolio website containing all about me i.e who i am, Education background, Work experience, Skills and Interest. It has different section namely name,about,skills, project and contact.
+  This is basically a website for delani studio , the services it offers  and also where to reach on.
 </td>
 </tr>
 </table>
 
 ## Demo
-Here is a working live demo :  
-Here is a working live demo :  https://abdisamad100.github.io/my-portfolio/
+Here is a working live demo : 
 ## Mobile support
 The Portfolio is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 ### Development
@@ -25,9 +24,8 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Built with
 -  HTML .
 -  css .
+-JQuery.
 ## Author
 - Abdisamad mohamed
 ## License
-[MIT](https://github.com/Abdisamad100/Portfolio/blob/master/LICENSE.md)
- © [Abdisamad Mohamed] (https://github.com/Abdisamad100)
- © [Abdisamad Mohamed] (https://github.com/Abdisamad100)
+[MIT]
