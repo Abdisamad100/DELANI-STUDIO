@@ -1,13 +1,9 @@
-$("img").click(function(){
-    $(".des").toggle();
+$(document).ready(function(){
+  $(".image").click(function(){
+    $(".des").hide();
+    $(".des") .show();
   });
-  
-  $("img").click(function(){
-    $(".dev").toggle();
-  });
+});
 
-  $("img").click(function(){
-    $(".hidden").toggle();
-  });
 
-  
+
