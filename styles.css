@@ -48,18 +48,16 @@ h1{
     height:500px;
     margin-top:50px;
 }
-.form{
-    width:100%;
+.form-group{
     padding:20px;
 }
-input{
-    margin:8px 0;
-    width:50%;
-    display:block;
+.col-md-12{
+    padding-top:30px;
 }
-.colmn input{
-    width:100px;
-    padding:200px;
-    display:block;
-
+.col-md-12 input{
+    width:100%;
+    height:300%;
+}
+footer{
+    align-items:center;
 }
