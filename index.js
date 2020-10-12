@@ -1,5 +1,8 @@
 $(".image").click(function(){
-    $(".hidden").toggle().slideToggle(1500);
+    $(".image").toggle().slideToggle(1500);
+});
+$(".image").click(function(){
+  $(".hidden") .hide().toggle() .slideToggle(2000);
 });
 
 //overlay 4
