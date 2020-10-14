@@ -1,8 +1,17 @@
+$(".hidden").hide();
 $(".image").click(function(){
-    $(".image").toggle().slideToggle(1500);
+    $(".hidden").show();
+  //$(".hidden") .toggle();
 });
-$(".image").click(function(){
-  $(".hidden") .hide().toggle() .slideToggle(2000);
+$(".dev").hide();
+$(".im").click(function(){
+    $(".dev").show();
+});
+$(".pro").hide();
+$(".imag").click(function(){
+    $(".pro").show();
+
+  //$(".pro") .toggle();
 });
 
 //overlay 4
